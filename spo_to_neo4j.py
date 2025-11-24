@@ -2,10 +2,10 @@ from neo4j import GraphDatabase
 import json
 
 # Neo4j数据库连接信息
-uri = "bolt://10.255.1.89:7687"  # Neo4j地址
-username = "neo4j"  # 用户名
-password = "dcc223637"  # 密码
-JSON_FILE_PATH = "/keeson/code/dcc/code/knowledge_graph/all_triples.json"  # 三元组JSON文件路径
+uri = ""  # Neo4j地址
+username = ""  # 用户名
+password = ""  # 密码
+JSON_FILE_PATH = ""  # 三元组JSON文件路径
 
 class TripleImporter:
     def __init__(self, uri, user, password):
